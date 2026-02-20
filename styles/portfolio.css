@@ -15,6 +15,9 @@
 .color-orange{
    color: #FD6E0A; 
 } 
+.color-blue{
+   color: blue; 
+} 
 .btn{/*button*/
 background-color: #FD6E0A;
 border: none;
@@ -27,6 +30,7 @@ color: white;
 .section-heading{
     max-width: 827px;
     text-align: centre;
+    margin: 0 auto;
 
 }
 .section-heading h2{
@@ -113,4 +117,36 @@ font-size: 20px;
     color: #757575;
 }#about-info .info-card h4{
 font-size: 20px;
+}
+#skills{
+ padding-top: 130px;
+
+}
+#skills .skill-container{
+    width: 74%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-box .skill-card{
+    padding: 30px;
+    box-shadow: 0 6px 40px 0 #00000021;
+    max-width: 267px;
+
+} .skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+
+} .skill-card h3{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 30px ;
+} .skill-card p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 28px;
+    
 }
